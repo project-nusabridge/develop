@@ -1,163 +1,465 @@
-# Brand Guidelines
+# BRAND GUIDELINES
 
 **Project:** NusaBridge
 
-**Document:** BRAND_GUIDELINES.md
-
 **Version:** 1.0
 
-**Last Updated:** July 2026
+**Status:** Approved for MVP
+
+**Last Updated:** August 2026
 
 ---
 
-## 1. Introduction
+# Brand Positioning
 
-This document defines the visual and verbal identity for NusaBridge. It is intended for designers, developers, marketers and partners to ensure consistent application of the brand across products, marketing and communications.
+NusaBridge is a professional business platform connecting Chinese enterprises with opportunities in Indonesia.
 
-Please replace placeholder assets, colors and font names with the official files and values when they are available.
+Our brand represents:
 
----
-
-## 2. Logo
-
-- Primary logo: Use the full logo (symbol + wordmark) on light backgrounds.
-- Secondary logo: Use the symbol-only mark for small sizes or tight spaces.
-- Clear space: Maintain a minimum clear space around the logo equal to the height of the symbol.
-- Minimum size: Do not render the full logo smaller than 40px in height; symbol-only should not be smaller than 24px.
-
-Do not:
-- Stretch, distort or recolor the logo.
-- Place the logo on low-contrast backgrounds without a protective container.
+- Trust
+- Professionalism
+- Local Execution
+- Long-term Partnership
 
 ---
 
-## 3. Color Palette
+# Brand Personality
 
-Primary colors (examples — replace with official values):
+NusaBridge should always feel:
 
-- NusaBlue: #0B5FFF
-- NusaGreen: #00A86B
-- NusaDark: #0A0A0A
-- NusaLight: #F7F9FC
+Professional
 
-Accent colors:
+Reliable
 
-- Accent Yellow: #FFC107
-- Accent Red: #E53935
+Modern
 
-Usage:
-- Primary colors: UI, wordmark, primary CTA
-- Accent colors: highlights, alerts, badges
-- Background: use NusaLight or white for content areas
+International
 
-Accessible contrast:
-- Ensure text on colored backgrounds meets WCAG AA (4.5:1 for normal text) or AAA where required.
+Practical
 
----
+Transparent
 
-## 4. Typography
+Never feel:
 
-Primary typeface (replace with chosen web/font files):
-- Heading: Inter or system sans-serif (e.g., `Inter`, `Helvetica Neue`, `Arial`)
-- Body: Inter / `Noto Sans` (for multilingual support)
+Cheap
 
-Styles:
-- H1 — 48px / 700
-- H2 — 32px / 600
-- H3 — 24px / 600
-- Body — 16px / 400
-- Caption — 12px / 400
+Over-designed
 
-Fallbacks:
-- Use system fallbacks for performance. Example CSS stack: `font-family: 'Inter', 'Noto Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;`
+Sales-oriented
+
+Complicated
+
+Corporate bureaucracy
 
 ---
 
-## 5. Iconography & Illustration
+# Brand Mission
 
-- Icons should be simple, geometric, and consistent in stroke weight.
-- Prefer a single icon set for UI (SVG format) and provide 16/24/32px sizes.
-- Illustrations should use the brand color palette and maintain a friendly, professional tone.
+Helping Chinese businesses expand into Indonesia with confidence.
 
 ---
 
-## 6. Photography
+# Brand Vision
 
-- Style: Authentic, documentary-style photos showing real people and real business scenarios in China and Indonesia.
-- Tone: Professional, helpful, and optimistic.
-- Treatment: Use slight desaturation and warm tones to keep imagery consistent.
+Become the most trusted China–Indonesia business platform.
 
 ---
 
-## 7. Voice & Tone
+# Brand Promise
 
-- Voice: Professional, clear, and practical.
-- Tone: Helpful and execution-oriented. Avoid overly technical jargon when addressing business owners.
+From market entry to long-term business growth.
 
-Writing tips:
-- Use active voice and short sentences.
-- Lead with the value proposition: what the reader can do or achieve.
-- Localize content appropriately for Chinese and Indonesian audiences.
+We stay with our clients throughout the journey.
 
 ---
 
-## 8. UI Patterns
+# Target Audience
 
-- Buttons: Primary (filled, NusaBlue), Secondary (outline), Destructive (red).
-- Forms: Clear labels, inline validation, helpful error messages.
-- Navigation: Use a simple top navigation for desktop and a bottom or hamburger navigation for mobile.
+Primary
 
----
+Chinese manufacturers
 
-## 9. Accessibility
+Chinese exporters
 
-- Follow WCAG 2.1 AA as a baseline.
-- Ensure keyboard focus states, sufficient color contrast, and accessible labels for interactive elements.
+Chinese investors
 
----
-
-## 10. Brand Assets & File Naming
-
-- Store official logos, icons, fonts and source files in the `assets/brand/` directory in the design repo.
-- File naming examples:
-  - `logo_nusabridge_primary.svg`
-  - `logo_nusabridge_symbol.svg`
-  - `color_palette_sketch.png`
+Cross-border e-commerce companies
 
 ---
 
-## 11. Legal & Trademarks
+Secondary
 
-- Use the brand only for approved projects and marketing materials.
-- Trademark and legal notices should be added where required; consult legal for the correct phrasing.
+Indonesia business partners
 
----
+Government organizations
 
-## 12. Contact
+Local suppliers
 
-For brand questions or asset requests, contact:
-
-- Brand Lead: [Name] — email@example.com
-- Design Lead: [Name] — design@example.com
+Distributors
 
 ---
 
-## Appendix — Sample CSS
+# Brand Voice
 
-```css
-:root {
-  --nusa-blue: #0B5FFF;
-  --nusa-green: #00A86B;
-  --nusa-dark: #0A0A0A;
-  --nusa-light: #F7F9FC;
-}
+Our communication should always be:
 
-body {
-  font-family: 'Inter', 'Noto Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  color: var(--nusa-dark);
-  background-color: var(--nusa-light);
-}
-```
+Simple
+
+Professional
+
+Helpful
+
+Confident
+
+Data-driven
+
+Action-oriented
+
+Avoid:
+
+Exaggeration
+
+Empty marketing language
+
+Buzzwords
+
+Aggressive sales copy
+
+---
+
+# Visual Identity
+
+## Design Philosophy
+
+Minimal
+
+Clean
+
+Business-focused
+
+International
+
+Inspired by:
+
+- Stripe
+- Notion
+- Linear
+- Apple
+
+---
+
+# Primary Colors
+
+## Primary Blue
+
+HEX
+
+#0F62FE
+
+Purpose
+
+Buttons
+
+Links
+
+Highlights
+
+---
+
+## Dark
+
+HEX
+
+#111827
+
+Purpose
+
+Headings
+
+Navigation
+
+Footer
+
+---
+
+## Gray
+
+HEX
+
+#6B7280
+
+Purpose
+
+Paragraphs
+
+Descriptions
+
+Secondary Text
+
+---
+
+## Light Gray
+
+HEX
+
+#F3F4F6
+
+Purpose
+
+Background
+
+Cards
+
+Sections
+
+---
+
+## White
+
+HEX
+
+#FFFFFF
+
+Purpose
+
+Main Background
+
+---
+
+# Accent Color
+
+Green
+
+HEX
+
+#16A34A
+
+Used only for:
+
+Success
+
+Positive Growth
+
+Business Opportunities
+
+Never use as the main brand color.
+
+---
+
+# Typography
+
+English
+
+Primary Font
+
+Inter
+
+Fallback
+
+Arial
+
+sans-serif
+
+Chinese
+
+Primary Font
+
+Noto Sans SC
+
+Fallback
+
+Microsoft YaHei
+
+PingFang SC
+
+sans-serif
+
+Indonesian
+
+Same as English
+
+Inter
+
+---
+
+# Border Radius
+
+Buttons
+
+12px
+
+Cards
+
+16px
+
+Input Fields
+
+12px
+
+Large Containers
+
+24px
+
+---
+
+# Shadows
+
+Soft shadows only.
+
+Avoid heavy shadows.
+
+Cards should appear lightweight.
+
+---
+
+# Icon Style
+
+Outlined icons.
+
+Simple.
+
+Consistent stroke width.
+
+Recommended:
+
+Lucide Icons
+
+---
+
+# Photography
+
+Use real business photography whenever possible.
+
+Preferred images:
+
+Business meetings
+
+Factories
+
+Warehouses
+
+Ports
+
+Industrial production
+
+Indonesia city skyline
+
+Chinese manufacturing
+
+Avoid:
+
+Generic handshake photos
+
+Fake office scenes
+
+Stock images with unrealistic smiles
+
+Random skyscrapers unrelated to Indonesia
+
+---
+
+# Illustration Style
+
+Minimal
+
+Flat
+
+Simple
+
+No cartoon style
+
+No 3D illustrations
+
+---
+
+# Button Style
+
+Primary Button
+
+Solid Blue
+
+White Text
+
+Rounded Corners
+
+Secondary Button
+
+White Background
+
+Dark Border
+
+Dark Text
+
+---
+
+# Layout Principles
+
+Large whitespace
+
+Maximum readability
+
+One message per section
+
+Simple navigation
+
+No visual clutter
+
+---
+
+# Website Tone
+
+Every page should answer:
+
+How can NusaBridge help my business succeed in Indonesia?
+
+Not:
+
+Who are we?
+
+---
+
+# Logo Usage
+
+Minimum clear space:
+
+1x logo height
+
+Minimum width:
+
+120px
+
+Dark background:
+
+Use white logo
+
+Light background:
+
+Use full color logo
+
+---
+
+# Future Brand Expansion
+
+Possible sub-brands:
+
+NusaBridge Academy
+
+NusaBridge Insights
+
+NusaBridge Intelligence
+
+NusaBridge AI
+
+NusaBridge Supply Network
+
+---
+
+# Internal Principle
+
+If a design decision does not improve trust,
+do not implement it.
+
+Trust is our strongest brand asset.
 
 ---
 
