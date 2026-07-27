@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .button-primary {
+    @apply inline-flex items-center justify-center px-4 py-2 font-medium rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors;
+  }
+
+  .button-secondary {
+    @apply inline-flex items-center justify-center px-4 py-2 font-medium rounded-lg border border-zinc-200 dark:border-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors;
+  }
+}
+
+* {
+  @apply scroll-smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
